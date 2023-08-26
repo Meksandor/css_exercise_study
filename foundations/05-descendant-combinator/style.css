@@ -1,0 +1,16 @@
+/*Completed with no problem*/
+.container .text { /*Do not forget to leave a space between parent and child*/
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*
+I can make my selectors like this too. You can do however you desire.
+
+div p
+.container p
+div .text
+
+*/

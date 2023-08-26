@@ -1,0 +1,26 @@
+/*Completed with no problem*/
+.proportioned.avatar {
+    /*.avatar.proportioned is okay too does not matter how do we order them*/
+    width: 300px;
+    height: auto;
+}
+
+/*In order tp complete this instruction we have to add an another unique classes for the first 2 images to do this
+or define unique id's but let's say we can't edit thr class names and can't unique classes and id's.
+In this case If we make our selector avatar the first 2 man and woman will be sharing the same class and te same
+changes will apply the both
+If we make our selector proportioned then avatar woman and the original woman will be exposed the same property but 
+we don't want to make any changes at our original images anyway
+If we make our selector distorted then avatar man and the original man will be exposed the same property but 
+we don't want to make any changes at our original images anyway */
+
+/*So we choose the chained classes to choose spesific selectors*/
+
+/*The order of the classes shorted inside of class="" does not matter what matters is
+just defining the HTML elements with spesific class selecting by chaining them with putting one after another. */
+
+.distorted.avatar {
+    /*.avatar.distorted is okay too does not matter how do we order them*/
+    width: 200px;
+    height: 400px;
+}

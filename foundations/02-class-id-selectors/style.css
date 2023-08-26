@@ -1,0 +1,31 @@
+/* Completed with only issue that font list containing Verdana` and `DejaVu Sans` with `sans-serif` as a fallback instruction */
+.odd_backg {
+background-color: pink;
+
+}
+
+#num_2 {
+color: blue;
+font-size: 36px;
+}
+
+#num_4 {
+background-color: lightgreen;
+font-weight: bold;
+}
+
+.fontsiz {
+    font-size: 16px;
+}
+/*This .fontsiz selector is actually unneccesary does not make a visual difference
+whether I add or not*/
+
+.fontsty {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+/*Me instead of adding this font family to .odd_backg sellector
+created an another class to make It. It's the same thing end of the day.*/
+
+.fontsiz24 {
+    font-size: 24px;
+}
